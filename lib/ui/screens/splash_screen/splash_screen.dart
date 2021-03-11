@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gold_ledger/data/common/color_contatant.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff0a112e),
+      backgroundColor: kScaffoldBgColor,
       body: Center(
         child: Container(
           child: Image(

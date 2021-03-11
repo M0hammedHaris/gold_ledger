@@ -18,6 +18,7 @@ class AuthenticationBloc
       yield AuthenticationInitial();
       try {
         if (true) {
+          await Future.delayed(Duration(seconds: 3));
           yield AuthenticatedState();
         } else {
           yield UnAuthenticatedState();
